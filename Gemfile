@@ -3,8 +3,10 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
-# Use sqlite3 as the database for Active Record
+# database
 gem 'sqlite3'
+gem "mongo_mapper"
+gem "pg"
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -43,3 +45,31 @@ end
 
 # Use debugger
  gem 'debugger'
+
+# Extra application based gems\
+  gem "builder", "~> 3.2.2" #xml builder
+  gem "will_paginate", "~> 3.0.4" #pagination purpose
+  gem 'rmagick','2.13.2' # For image processing uses image magick internally
+  gem "nokogiri", "~> 1.6.0" #Nokogiri is an HTML, XML, SAX, and Reader parser
+  gem "sanitize", "~> 2.0.6" # To Sanitsie params
+  gem "fastercsv", "~> 1.5.5" #to fast ruby lib codes
+  gem "BlueCloth", "~> 1.0.1" #BlueCloth is a Ruby implementation of Markdown, a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML)
+  gem "progressbar", "~> 0.20.0"
+  gem "ruby-doom", "~> 0.9.0" #Generates DOOM maps.
+  gem "captcha", "~> 1.2.2"
+  gem "formtastic", "~> 2.2.1" # Used for building forms easily
+  gem 'simple_captcha'
+  
+  
+# date picker
+  gem "jquery_datepicker", "~> 0.4"
+# Solr with Sunspot
+  gem 'sunspot_rails'
+  gem 'sunspot_solr'
+
+#Social media login
+  gem "linkedin"
+  
+  
+  
+  
